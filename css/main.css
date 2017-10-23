@@ -1,0 +1,37 @@
+
+.container{
+width: 1400px;
+height:1400px;
+margin-left: 200px;
+	/*background-repeat: no-repeat;*/
+
+	/*float: left;*/
+}
+div{
+  display: inline-block;
+}
+
+.bg-woman1 {
+    width: 388px; height: 422px;
+    background: url('../assets/image/css_sprites.png') -10px -451px;
+}
+.bg-woman2 {
+    width: 393px; height: 421px;
+    background: url('../assets/image/css_sprites.png') -10px -10px;
+}
+.bg-woman4 {
+    width: 398px; height: 415px;
+    background: url('../assets/image/css_sprites.png') -423px -10px;
+}
+.bg-woman6 {
+    width: 392px; height: 417px;
+    background: url('../assets/image/css_sprites.png') -841px -10px;
+}
+.bg-woman3 {
+    width: 387px; height: 421px;
+    background: url('../assets/image/css_sprites.png') -841px -447px;
+}
+.bg-woman5 {
+    width: 392px; height: 417px;
+    background: url('../assets/image/css_sprites.png') -418px -451px;
+}
