@@ -2,9 +2,8 @@
   font-family: monospace;
 }
 .container{
-width: 1400px;
-height:900px;
-position: fixed;
+box-sizing: border-box;
+position: absolute;
 }
 
 div{
@@ -13,22 +12,25 @@ div{
   max-width: 100%; /*para que la imagen se ajuste a su contenedor*/
 }
 h1{
-  left:40px;
   width: 400px;
   height:30px;
-  margin: 0px;
-  padding: 0px;
+  margin: 5px;
+  padding:0px;
+  left: 20px;
+  position: relative;
 }
 .box-line{
   width: 80px;
   height: 5px;
-  left: 20px;
+  left: 35px;
   margin: 0px;
   background-color: black;
+  position: absolute;
 }
 .img{
  float: left;
  position: relative;
+ opacity: 0.8;
 }
 #bg-woman1 {
     width: 388px;
