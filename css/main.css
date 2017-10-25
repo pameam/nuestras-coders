@@ -3,9 +3,11 @@
 }
 .container{
 box-sizing: border-box;
-position: absolute;
-}
 
+}
+header {
+  position: relative;
+}
 div{
   display: inline-block;
   margin: 15px;
@@ -19,14 +21,14 @@ h1{
   left: 20px;
   position: relative;
 }
-.box-line{
+hr{
   width: 80px;
   height: 5px;
-  left: 35px;
-  margin: 0px;
+  margin-left: 28PX;
   background-color: black;
-  position: absolute;
+  display: inline-block;
 }
+
 .img{
  float: left;
  position: relative;
@@ -35,7 +37,6 @@ h1{
 #bg-woman1 {
     width: 388px;
     height: 422px;
-    /*top: 200px;*/
     background: url('../assets/image/css_sprites.png') -10px -451px;
 }
 #bg-woman2 {
@@ -46,18 +47,11 @@ h1{
     width: 398px; height: 415px;
     background: url('../assets/image/css_sprites.png')-841px -447px;
   }
-/*#bg-woman4 {
-    width: 398px; height: 415px;
-    background: url('../assets/image/css_sprites.png') -423px -10px;
-}*/
+
 #bg-woman6 {
     width: 392px; height: 417px;
     background: url('../assets/image/css_sprites.png') -841px -10px;
-}/*
-#bg-woman3 {
-    width: 387px; height: 421px;
-    background: url('../assets/image/css_sprites.png') -841px -447px;
-}*/
+}
 #bg-woman3 {
     width: 387px; height: 421px;
     background: url('../assets/image/css_sprites.png') -423px -10px;
@@ -66,8 +60,7 @@ h1{
     width: 392px; height: 417px;
     background: url('../assets/image/css_sprites.png') -418px -451px;
 }
-span{
-  /*position: relative;/*aplicamos position absolute para posicionar el texto encima de la imagen*/*/
+span{  
   right: 100px;
   left: 250px;
   top: 395px;
